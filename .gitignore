@@ -1,0 +1,23 @@
+# Python / Virtualenv
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Node / Electron
+node_modules/
+electron_app/node_modules/
+electron_app/release-builds/
+*.exe
+*.dmg
+*.zip
+*.asar
+*.tar.gz
+*.app
+*.dll
+
+# Logs and generated reports
+runner/test_log.txt
+runner/log_summary.csv
+reports/pass_fail.png
+reports/pass_fail_pie.png

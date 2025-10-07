@@ -1,0 +1,24 @@
+{
+  "name": "tv-test-analyzer-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Fazni Alif",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.example.tvtestanalyzer",
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  }
+}

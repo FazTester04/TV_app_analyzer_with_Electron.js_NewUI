@@ -1,0 +1,10 @@
+{
+  "steps": [
+    {"action": "power_on"},
+    {"action": "launch_app", "app": "YouTube"},
+    {"action": "wait", "seconds": 1},
+    {"action": "play", "title": "Sony Demo Clip"},
+    {"action": "check_status", "expect": "Playing"},
+    {"action": "power_off"}
+  ]
+}
